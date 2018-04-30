@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication3"
+        mc:Ignorable="d"
+        Title="Sign up" Height="695" Width="500">
+    <Window.Background>
+        <ImageBrush ImageSource="30952677_119292612266747_849536376_o.jpg"/>
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Border BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" BorderThickness="1" Height="56" Margin="159,10,153,0" VerticalAlignment="Top" CornerRadius="30" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+            <TextBox x:Name="tb_Reg" Margin="27.822,15.666,28.489,0" TextWrapping="Wrap" Text="Sign up with FB" FontWeight="Bold" FontSize="16" TextAlignment="Center" Background="#00000000" BorderThickness="0" Foreground="#FFA49797" d:LayoutOverrides="Width" VerticalAlignment="Top"/>
+        </Border>
+        <Label x:Name="label" Content="Or E-mail" Height="45" Margin="214,66,165,0" VerticalAlignment="Top" FontSize="15"/>
+        <Border BorderBrush="Black" BorderThickness="1" Height="45" Margin="140,94.893,130,0" VerticalAlignment="Top" CornerRadius="15">
+            <TextBox x:Name="tb_Email" Margin="35,9,0,15" TextWrapping="Wrap" Text="Email" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" d:LayoutOverrides="Height"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="140,144.893,130,0" Height="46" VerticalAlignment="Top" CornerRadius="15">
+            <TextBox x:Name="tb_Password" Margin="36,9,0,15" TextWrapping="Wrap" Text="Password" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="14" TextAlignment="Center" HorizontalAlignment="Left" d:LayoutOverrides="Height"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Height="45" Margin="140,195.893,127,0" VerticalAlignment="Top" CornerRadius="15" Width="225">
+            <TextBox x:Name="tb_User" Margin="35,9,108,15" TextWrapping="Wrap" Text="User name" FontWeight="Bold" FontSize="14" TextAlignment="Center" Background="#00000000" BorderThickness="0" d:LayoutOverrides="Height"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="140,245.893,127,0" CornerRadius="15" Width="225" Height="46" VerticalAlignment="Top">
+            <TextBox x:Name="tb_Date" Margin="35,9,104.33,16.38" TextWrapping="Wrap" Text="Day of birth" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="14" TextAlignment="Center" d:LayoutOverrides="Width, Height"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="140,301.943,127,317.057" CornerRadius="15" Width="225" Height="45">
+            <TextBox x:Name="tb_Sex" Margin="35,9,0,15" TextWrapping="Wrap" Text="Gender" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="14" TextAlignment="Center" HorizontalAlignment="Left" d:LayoutOverrides="Height"/>
+        </Border>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="20" Margin="151.333,105.893,0,0" VerticalAlignment="Top" Width="20" Source="close-envelope.png"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="20" Margin="151.333,156.999,0,0" VerticalAlignment="Top" Width="20" Source="lock.png"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="20" Margin="151.333,207,0,0" VerticalAlignment="Top" Width="20" Source="man-user.png"/>
+        <Image x:Name="image_Copy2" HorizontalAlignment="Left" Height="20" Margin="151.333,255.56,0,0" VerticalAlignment="Top" Width="20" Source="calendar.png"/>
+        <Image x:Name="image_Copy3" HorizontalAlignment="Left" Margin="151.333,312.333,0,331.667" Width="20" Source="icon.png"/>
+        <Border BorderBrush="#FF317810" BorderThickness="1" Height="48" Margin="194.667,0,188.333,253.333" VerticalAlignment="Bottom" CornerRadius="25" Background="#FF317810">
+            <TextBox x:Name="textBox4" Margin="24.511,9,28.511,18.38" TextWrapping="Wrap" Text="Sign up" FontWeight="Bold" FontSize="14" TextAlignment="Center" Background="#01000000" BorderThickness="0" Foreground="#FFCFBBBB" d:LayoutOverrides="Width, Height"/>
+        </Border>
+        <Label x:Name="label1" Content="License" Height="42" Margin="214,0,216.96,206.333" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="15" d:LayoutOverrides="Width"/>
+
+    </Grid>
+</Window>

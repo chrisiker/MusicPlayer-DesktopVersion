@@ -1,0 +1,13 @@
+D:\Login\WpfApplication3\bin\Debug\WpfApplication3.exe.config
+D:\Login\WpfApplication3\bin\Debug\WpfApplication3.exe
+D:\Login\WpfApplication3\bin\Debug\WpfApplication3.pdb
+D:\Login\WpfApplication3\obj\Debug\MainWindow.g.cs
+D:\Login\WpfApplication3\obj\Debug\App.g.cs
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.lref
+D:\Login\WpfApplication3\obj\Debug\MainWindow.baml
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3.Properties.Resources.resources
+D:\Login\WpfApplication3\obj\Debug\Sign up.csproj.GenerateResource.Cache
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3.exe
+D:\Login\WpfApplication3\obj\Debug\WpfApplication3.pdb
