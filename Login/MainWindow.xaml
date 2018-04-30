@@ -1,0 +1,29 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="Login" Height="426" Width="587" Visibility="Visible">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="30952677_119292612266747_849536376_o.jpg"/>
+        </Grid.Background>
+        <Border BorderThickness="1" Height="43.537" Margin="182.951,10,177.586,0" VerticalAlignment="Top" CornerRadius="30" Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" OpacityMask="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}"/>
+        <TextBox x:Name="tb_Fb" Height="43.536" Margin="203.521,18.902,196.448,0" TextWrapping="Wrap" Text="Login by FB&#xD;&#xA;" VerticalAlignment="Top" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="16" TextAlignment="Center" Foreground="White" d:LayoutOverrides="Width" BorderBrush="#00000000"/>
+        <Label x:Name="label" Content="Or" Height="41" Margin="269.364,67.438,196.448,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" d:LayoutOverrides="Width"/>
+        <Border BorderBrush="Black" BorderThickness="1" Height="50" Margin="134,108.438,110,0" VerticalAlignment="Top" CornerRadius="15">
+            <TextBox x:Name="tb_Id" Margin="33.187,18,151,-18.438" TextWrapping="Wrap" Text="ID" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="15"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="134,176.438,110,168.562" CornerRadius="15" Width="335" Height="50"/>
+        <TextBox x:Name="tb_Password" Margin="169,191.438,0,154" TextWrapping="Wrap" Text="Password" Background="#00000000" BorderThickness="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left" d:LayoutOverrides="VerticalAlignment"/>
+        <Border BorderBrush="#00000000" BorderThickness="1" Height="49" Margin="203.521,0,196.448,100" VerticalAlignment="Bottom" CornerRadius="30" Background="#FF317810">
+            <TextBox x:Name="tb_Click" Margin="52.823,9,47.823,-11" TextWrapping="Wrap" Text="Enter&#xD;&#xA;" FontWeight="Bold" FontSize="18" TextAlignment="Center" Background="#00000000" BorderThickness="0" Foreground="#FFCFBBBB"/>
+        </Border>
+        <Label x:Name="lb_Forgot" Content="Forgot password?" Height="34" Margin="225,0,212,61" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="14"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="22.562" Margin="144,123.438,0,0" VerticalAlignment="Top" Width="45" Source="man-user.png"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Margin="144,176.438,0,168.562" Width="20" Source="lock.png"/>
+
+    </Grid>
+</Window>
